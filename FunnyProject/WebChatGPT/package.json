@@ -2,13 +2,10 @@
   "name": "web_chatgpt",
   "version": "2.10.5",
   "private": false,
-  "description": "WebChatGPT",
+  "description": "WebChatGPT From Chanzhaoyu",
   "author": "WangHao <wh18307094479@gmail.com>",
   "keywords": [
-    "chatgpt-web",
-    "chatgpt",
-    "chatbot",
-    "vue"
+    "chatgpt-web"
   ],
   "scripts": {
     "dev": "vite",
