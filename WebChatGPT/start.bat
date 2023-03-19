@@ -1,6 +1,6 @@
 @echo off
 
-rem 切换到服务端目录，启动服务并将输出写入日志文件
+rem 切换到后端服务端目录，启动服务并将输出写入日志文件
 cd E:\Study\JavaScript\FunnyProject\WebChatGPT\service
 start /B cmd /c "pnpm start > service.log"
 echo Start service complete!
@@ -8,7 +8,7 @@ echo Start service complete!
 REM 等待 3 秒钟，确保服务已经启动完成 
 timeout /t 3
 
-rem 切换到前端代码目录，清空日志文件，启动服务并将输出写入日志文件
+rem 切换到前端界面目录，清空日志文件，启动服务并将输出写入日志文件
 cd E:\Study\JavaScript\FunnyProject\WebChatGPT
 echo. > front.log
 start /B cmd /c "pnpm dev >> front.log 2>&1"
