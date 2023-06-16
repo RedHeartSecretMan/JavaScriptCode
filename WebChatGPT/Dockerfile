@@ -16,7 +16,7 @@ COPY . /app
 RUN pnpm run build
 
 # build backend
-FROM node:lts-alpine AS backend
+FROM node:lts-alpine as backend
 
 RUN npm install pnpm -g
 
